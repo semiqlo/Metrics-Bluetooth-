@@ -1,0 +1,8 @@
+<BluetoothScanner>:
+    BoxLayout:
+        orientation: "vertical"
+        ListView:
+            id: list_view
+        Button:
+            text: "Escanear dispositivos"
+            on_press: root.scan_devices()
